@@ -1,0 +1,389 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input, select {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* nav {
+    background-color: #333;
+    padding: 10px;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#content {
+    margin: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} */
+
+/* nav ul li {
+    float: left;
+} */
+
+/* nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+
+/* nav ul li a:hover {
+    background-color: #111;
+} */
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.housekeeping-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.housekeeping-table th, .housekeeping-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.housekeeping-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.housekeeping-table td a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.housekeeping-table td a:hover {
+    text-decoration: underline;
+}
+
+.logout-container {
+    text-align: right;
+    margin: 20px;
+}
+
+.logout-container a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.logout-container a:hover {
+    text-decoration: underline;
+}
+
+/* transaction */
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+} */
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.transaction-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.transaction-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.transaction-table td a {
+    color: #0066cc;
+    text-decoration: none;
+    display: block;
+}
+
+.transaction-table td a:hover {
+    text-decoration: underline;
+}
+
+.logout-container {
+    text-align: right;
+    margin: 20px;
+}
+
+.logout-container a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.logout-container a:hover {
+    text-decoration: underline;
+}
+
+/* check-book */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+} */
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.transaction-options {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.transaction-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.transaction-table td input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.transaction-table td button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.transaction-table td button:hover {
+    background-color: #005bb5;
+}
+
+#resultMessage {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.logout-container {
+    text-align: right;
+    margin: 20px;
+}
+
+.logout-container a {
+    color: red;
+    text-decoration: none;
+}
+
+.logout-container a:hover {
+    text-decoration: underline;
+}
+
+
+/* reports */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+} */
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reports-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.reports-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.reports-table td a {
+    color: #0066cc;
+    text-decoration: none;
+    display: block;
+}
+
+.reports-table td a:hover {
+    text-decoration: underline;
+}
+
+.logout-container {
+    text-align: right;
+    margin: 20px;
+}
+
+.logout-container a {
+    color:red;
+    text-decoration: none;
+}
+
+.logout-container a:hover {
+    text-decoration: underline;
+}
